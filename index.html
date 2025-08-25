@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Torre anuncia contratação de Hugo Tavares; COPM resiste à liberação</title>
+  <meta name="description" content="Matéria fictícia: Torre confirma contratação de Hugo Tavares enquanto o COPM resiste à liberação. Brincadeira entre amigos." />
+  <meta property="og:title" content="Torre anuncia contratação de Hugo Tavares; COPM resiste à liberação" />
+  <meta property="og:description" content="Matéria fictícia produzida para brincadeira entre amigos." />
+  <meta property="og:type" content="article" />
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --muted: #555;
+      --text: #222;
+      --accent: #c00;
+      --accent-2: #e63946;
+      --radius: 12px;
+      --shadow: 0 6px 16px rgba(0,0,0,.1);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 24px; }
+    header {
+      background: linear-gradient(90deg, #c00, #e63946);
+      color: #fff; padding: 24px; border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+    .headline { font-size: clamp(26px, 4.2vw, 42px); margin: 0 0 8px; }
+    .subline { margin: 0; font-size: 1.1rem; color: #ffe0e0; }
+    .meta { margin-top: 12px; font-size: .9rem; color: #ffdede; }
+    .card { background: var(--card); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); margin-bottom: 24px; }
+    article p { margin: 0 0 16px; font-size: 1.05rem; }
+    article blockquote { margin: 18px 0; padding: 14px 18px; border-left: 4px solid var(--accent); background: #fff5f5; border-radius: 6px; color: #c00; font-weight: bold; }
+    aside { background: #fef3f3; border: 1px solid #f5c2c7; border-radius: var(--radius); padding: 18px; }
+    .aside-title { margin-top: 0; margin-bottom: 12px; font-size: 1.05rem; color: #b00000; }
+    .facts div { margin-bottom: 8px; }
+    footer { margin-top: 32px; font-size: .9rem; color: #666; text-align: center; }
+    .disclaimer { margin-top: 16px; padding: 14px; border-radius: 8px; background: #fff5f5; border: 1px solid #f5c2c7; color: #900; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="headline">Torre anuncia contratação de Hugo Tavares; COPM resiste à liberação</h1>
+      <p class="subline">Movimentação interna aquece os bastidores: operador manifesta desejo de mudança de ares e diretoria da Torre mantém otimismo pela chegada.</p>
+      <div class="meta">
+        Por <strong>Ricardo Monteiro — ESPN (fictício)</strong> • <time id="pubdate">25 ago 2025</time>
+      </div>
+    </header>
+
+    <article class="card">
+      <p>Em uma movimentação que pegou os bastidores de surpresa, a <strong>Torre</strong> confirmou a contratação de <strong>Hugo Tavares</strong> para reforçar a equipe de operações. A negociação, entretanto, esbarrou em um obstáculo imediato: o <strong>COPM</strong> ainda não sinalizou a liberação do profissional, considerado peça importante na atual estrutura.</p>
+
+      <p>Mesmo diante da resistência, fontes próximas garantem que Tavares já manifestou o desejo de uma <em>mudança de ares</em>, enxergando na Torre a oportunidade ideal para desenvolver novas frentes de trabalho. Internamente, a avaliação é de que o operador trará fôlego e consistência ao time desde o primeiro dia.</p>
+
+      <blockquote>
+        “O perfil do Hugo se encaixa no nosso projeto. Vamos respeitar os trâmites, mas estamos confiantes de que essa transição será positiva para todos os envolvidos.” — declarou um porta-voz da Torre.
+      </blockquote>
+
+      <p>Do outro lado, o COPM reforça a importância do profissional e busca alternativas para mantê-lo por mais tempo. A leitura é que sua saída, neste momento, exigiria um rearranjo imediato na escala. Ainda assim, pessoas com conhecimento das conversas acreditam em um desfecho breve.</p>
+
+      <p>Enquanto o impasse se desenrola, a expectativa pela estreia de Tavares segue crescendo. Caso a liberação seja confirmada, a Torre pretende integrá-lo rapidamente ao planejamento, com foco em eficiência operacional e segurança.</p>
+    </article>
+
+    <aside>
+      <h3 class="aside-title">Resumo rápido</h3>
+      <div class="facts">
+        <div><strong>Reforço:</strong> Hugo Tavares (operador)</div>
+        <div><strong>Novo time:</strong> Torre</div>
+        <div><strong>Situação:</strong> Liberação pendente pelo COPM</div>
+        <div><strong>Bastidores:</strong> Profissional busca mudança de ares</div>
+        <div><strong>Status:</strong> Negociação em curso</div>
+      </div>
+    </aside>
+
+    <footer>
+      <p>Reportagem fictícia assinada por <strong>Ricardo Monteiro — ESPN (fictício)</strong>.</p>
+      <p class="disclaimer">Aviso: este conteúdo é <strong>100% fictício</strong> e foi criado apenas para uma brincadeira entre amigos. Qualquer semelhança com fatos, nomes e cargos reais é mera coincidência.</p>
+    </footer>
+  </div>
+
+  <script>
+    const d = new Date();
+    const fmt = new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+    document.getElementById('pubdate').textContent = fmt.format(d).replace('.', '');
+  </script>
+</body>
+</html>
